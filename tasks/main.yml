@@ -1,0 +1,3 @@
+---
+- name: Ansible-Nginx-Pagespeed | Install Nginx with Pagespeed
+  command: "bash <(curl -f -L -sS https://ngxpagespeed.com/install) --nginx-version latest -y"
